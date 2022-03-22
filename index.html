@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 style="text-align: center; color: rgb(204, 188, 42);">Account Registration</h1>
+       <hr>
+    </div>
+<div>
+        <form action="" method="POST">
+            <div style="text-align: center;">
+            <h2>Whats your name?</h2>
+            <p><b>Enter the name you use in real life</b></p>
+            <input type="text" name="name" placeholder="First name" value="">
+            <input type="text" name="name" placeholder="Last name" value="">
+        </div>
+
+        <div  style="text-align: center;">
+            
+            <h2>Whats your birthday?</h2>
+            <p>Chose your birthday</p> 
+            <input type="date">
+        </div>
+        <div  style="text-align: center;">
+            
+            <h2>Whats your gender?</h2>
+            <p>You can  change who can sees your profile later</p> 
+            <label for="gender">Female</label>
+            <input type="radio" class="gender" name="gender" value="female">
+            <label for="gender">Male</label>
+            <input type="radio" class="gender" name="gender" value="male">
+            <label for="gender">Others</label>
+            <input type="radio" class="gender" name="gender" value="others">
+        </div>
+        <div  style="text-align: center;">
+            
+            <h2>Enter your state where you live</h2>
+      <select>
+        <option value="select">select</option>
+        <option value="Odisha">Odisha</option>
+        <option value="Jharkhad">Jharkhad</option>
+          <option value="bihar">Bihar</option>
+      </select>
+            
+            
+        </div>
+        <div  style="text-align: center;">
+            
+            <h2>Enter your mobile number</h2>
+            <p>Enter the moblie number where you can be reached</p> 
+           
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" maxlength="10">
+            
+        </div>
+        <div  style="text-align: center;">
+            
+            <h2>Choose a password</h2>
+            <p>Your password is not visible to others and confrim password <br>is same as of password</p> 
+            
+            <input type="password"  style="margin-bottom: 10px;" name="password" placeholder="Enter your password"><br>
+            <input type="password"  name="cpassword" placeholder="rewrite your password">
+            
+        </div>
+  <div style="text-align: center; margin-top: 10px;">
+        <input type="checkbox">I agree terms and conditons
+    </div>
+    <div style="text-align: center; margin-top: 10px; padding-left: 240px;">
+        <input type="submit">
+    </div>
+        </form>
+    </div>
+</body>
+</html>
